@@ -32,7 +32,7 @@ function draw(){
     song_name = Peter_pan_song.isPlaying();
     console.log(song_name);
 
-    if(scoreleftWrist > 0.1){
+    if(scoreleftWrist > 0.2){
         circle(leftWrist_x,leftWrist_y,20);
         Harry_potter_theme_song.stop();
         if(song_name == false){
